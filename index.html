@@ -1,0 +1,7 @@
+  <?php 
+
+  include ("conectar.php");
+  $sql=("SELECT nombregrupo,nombremaestro ,nombremateria  FROM grupos ORDER BY nombregrupo ASC");
+  $resp=$conexion -> query($sql);
+
+  ?>
